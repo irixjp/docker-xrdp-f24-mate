@@ -1,0 +1,5 @@
+#!/bin/bash
+export LANG=C
+ibus-daemon -d
+exec mate-session
+
